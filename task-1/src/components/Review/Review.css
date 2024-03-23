@@ -44,8 +44,7 @@
   .rating {
     font-size: 1.2em;
     margin-bottom: 15px;
-    color:gray;
-   }
+    }
   
   .btn {
     display: block;
@@ -67,32 +66,11 @@
     .card {
       width: 30%; 
     }
-    .star {
-      color: gray !important; 
     }
-  
-    .star.selected {
-      color: yellow !important; 
-    }
-  }
   
   @media (max-width: 767px) {
     .card {
       width: 100%; 
     }
-    .star {
-      color: gray !important; 
-    }
-  
-    .star.selected {
-      color: yellow !important; 
-    }
-  }
-  .star {
-    cursor: pointer;
-    color: gray !important;
-    }
-  
-  .star.selected {
-    color: yellow !important;
-  }
+   }
+ 

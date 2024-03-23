@@ -76,6 +76,7 @@
   }
   .star {
     cursor: pointer;
+    color:gray;
   }
   
   .star.selected {

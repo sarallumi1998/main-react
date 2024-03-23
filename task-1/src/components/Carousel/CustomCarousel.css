@@ -1,0 +1,40 @@
+.custom-carousel {
+  position: relative;
+  max-width: 100%;
+ }
+
+.custom-carousel img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+  
+}
+
+.carousel-caption {
+  position: absolute;
+  margin-bottom:10px;
+  bottom:30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  padding:15px;
+  box-sizing: border-box;
+  font-weight: bolder;
+  }
+
+.carousel-caption h1{
+  margin: 0;
+  font-weight: bolder;
+  color:white;
+  }
+
+
+@media (max-width: 767px) {
+  .carousel-caption {
+    font-size: 14px;
+    top:30%;
+    }
+  
+}

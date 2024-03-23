@@ -1,0 +1,14 @@
+.about-us-container {
+    max-width: 800px;
+    margin:0 auto;
+    font-weight: bold;
+    }
+      
+    .responsive-image {
+      width: 100%;
+      height: auto;
+      margin-top: 15px;
+      border-radius:5500%;
+      
+    }
+    

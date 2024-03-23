@@ -68,11 +68,11 @@
       width: 30%; 
     }
     .star {
-      color: gray; 
+      color: gray !important; 
     }
   
     .star.selected {
-      color: yellow; 
+      color: yellow !important; 
     }
   }
   
@@ -81,17 +81,18 @@
       width: 100%; 
     }
     .star {
-      color: gray; 
+      color: gray !important; 
     }
   
     .star.selected {
-      color: yellow; 
+      color: yellow !important; 
     }
   }
   .star {
     cursor: pointer;
+    color: gray !important;
     }
   
   .star.selected {
-    color: yellow;
+    color: yellow !important;
   }
